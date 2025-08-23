@@ -18,7 +18,9 @@ const __dirname = path.resolve();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: process.env.NODE_ENV === "production" 
+    ? ["https://your-app-name.vercel.app", "https://your-custom-domain.com"] 
+    : "http://localhost:5173",
   credentials: true,
 }));
 
