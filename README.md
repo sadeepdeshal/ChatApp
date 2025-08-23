@@ -57,7 +57,7 @@ npm install
 npm start
 ```
 
-### 3. Alternative way
+### 4. Alternative way
 
 Build the app
 ```bash
