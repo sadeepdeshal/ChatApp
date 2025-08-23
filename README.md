@@ -19,13 +19,6 @@ Talksy is a real-time chat application built with the MERN stack. It allows user
 - **Authentication:** JWT + bcrypt
 - **File Upload:** Cloudinary
 - **State Management:** Zustand
-- **Deployment:** Vercel
-
-## 🌐 Live Demo
-[View Live Application](https://your-app-name.vercel.app) _(Update with your actual URL)_
-
-## 📖 Deployment Guide
-For complete deployment instructions, see [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)
 
 ## ⚙️ Local Development Setup  
 
